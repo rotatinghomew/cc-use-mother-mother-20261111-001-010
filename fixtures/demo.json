@@ -1,0 +1,20 @@
+{
+  "subject_id": "privacy_export-synthetic",
+  "request_key": "privacy_export-demo",
+  "payload": {
+    "release_id": "rel-1",
+    "purpose": "quality",
+    "granted_purposes": [
+      "quality"
+    ],
+    "policy": "keep subject_id score mask subject_id",
+    "data": {
+      "subject_id": "synthetic",
+      "score": 27,
+      "extra": "drop-me"
+    },
+    "namespace": "demo",
+    "disclosure_budget": 10,
+    "row_count": 1
+  }
+}
